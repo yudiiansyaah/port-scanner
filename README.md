@@ -54,25 +54,25 @@ pip install -r requirements.txt
 ## ⚡ Usage
 1️⃣ Scan a specific IP and port(s)
 ```
-python3 scan_port.py 192.168.1.1 -p 22,80,443
+python3 main.py 192.168.1.1 -p 22,80,443
 ```
 🔹 Description: Scans ports 22, 80, and 443 on the target IP.
 
 2️⃣ Scan a range of ports
 ```
-python3 scan_port.py 192.168.1.1 -p 1-1000
+python3 main.py 192.168.1.1 -p 1-1000
 ```
 🔹 Description: Scans all ports from 1 to 1000.
 
 3️⃣ Scan all ports (default behavior)
 ```
-python3 scan_port.py 192.168.1.1
+python3 main.py 192.168.1.1
 ```
 🔹 Description: Scans all ports (1-65535) on the target.
 
 4️⃣ Use multi-threading for faster scanning
 ```
-python3 scan_port.py 192.168.1.1 -t 200
+python3 main.py 192.168.1.1 -t 200
 ```
 🔹 Description: Uses 200 threads to speed up the scan.
 
@@ -97,7 +97,7 @@ This project is licensed under the MIT License
 ## 👤 Author
 Yudiansyah
 📌 Instagram:  [yudiiansyaah](https://instagram.com/yudiiansyaah)
-📌 X/Twiiter:  [email](https://x.com/yudiiansyaah)
+📌 X/Twiiter:  [yudiiansyaah](https://x.com/yudiiansyaah)
 📌 GitHub: [yudiiansyaah](https://github.com/yudiiansyaah)
 📌 Email:  [email](411221035@mahasiswa.undira.ac.id)
 
