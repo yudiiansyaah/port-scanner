@@ -92,14 +92,14 @@ python3 main.py 192.168.1.1 -t 200
 ```
 
 ## 📜 License
-This project is licensed under the MIT License
+This project is licensed under the [MIT License](MITLicense)
 
 ## 👤 Author
 Yudiansyah
-📌 Instagram:  [yudiiansyaah](https://instagram.com/yudiiansyaah)
-📌 X/Twiiter:  [yudiiansyaah](https://x.com/yudiiansyaah)
-📌 GitHub: [yudiiansyaah](https://github.com/yudiiansyaah)
-📌 Email:  [email](411221035@mahasiswa.undira.ac.id)
+- 📌 Instagram:  [yudiiansyaah](https://instagram.com/yudiiansyaah)
+- 📌 X/Twiiter:  [yudiiansyaah](https://x.com/yudiiansyaah)
+- 📌 GitHub: [yudiiansyaah](https://github.com/yudiiansyaah)
+- 📌 Email:  [email](411221035@mahasiswa.undira.ac.id)
 
 ## ⭐ Support & Contributions
 💡 Found a bug or want to improve the project? Feel free to submit an issue or pull request!
