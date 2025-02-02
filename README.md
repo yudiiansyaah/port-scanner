@@ -92,7 +92,7 @@ python3 main.py 192.168.1.1 -t 200
 ```
 
 ## 📜 License
-This project is licensed under the [MIT License](License)
+This project is licensed under the [MIT License](LICENSE)
 
 ## 👤 Author
 Yudiansyah
