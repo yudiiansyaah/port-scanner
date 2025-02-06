@@ -33,7 +33,6 @@ def main():
     parser.add_argument("-t", "--threads", help="Number of threads to use (default: 100)", type=int, default=100)
     args = parser.parse_args()
 
-    # Jika pengguna tidak memberikan IP, minta input manual
     target = args.target
     if not target:
         target = input("🔍 Please enter the target IP address: ").strip()
@@ -47,7 +46,6 @@ def main():
     ports_arg = args.ports
     threads = args.threads
 
-    # Parsing port range atau daftar port
     ports = []
     if "-" in ports_arg:
         start, end = map(int, ports_arg.split("-"))
