@@ -4,13 +4,13 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def banner():
-    red = Fore.GREEN
+    green = Fore.GREEN
     cyan = Fore.CYAN
     yellow = Fore.YELLOW
     magenta = Fore.MAGENTA
     reset = Style.RESET_ALL
     name_banner = Figlet(font='slant')
-    print(red + name_banner.renderText("        Y u d ' S   "))
+    print(green + name_banner.renderText("        Y u d ' S   "))
     name_project = Figlet(font="slant")
     print(cyan + name_project.renderText("  Scanning Port    "))
     gitHub = "https://github.com/yudiiansyaah"
